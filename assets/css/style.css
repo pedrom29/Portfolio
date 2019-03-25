@@ -1,0 +1,37 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.hero-section {
+    text-align: center;
+    color: #ffffff;
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50rem;
+  }
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.open {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.oscuro {
+  background-color: #373A3C;
+}
+
+.otro {
+  color: ##373A3C;
+}
+
+a {
+  color: #ffffff;
+}
+
+.negro {
+  color: #373A3C;
+}
