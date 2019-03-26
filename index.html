@@ -25,58 +25,98 @@
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark oscuro">
-                <div class="container">
-                        <a class="navbar-brand" href="#"><h3 class="font-weight-bold">PEDRO</h3>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto  mr-1">
-
-                   <li class="nav-item">
-                    <a class="nav-link text-white" href=""></a>
-                   </li>
-                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#sobre_mi">Sobre mi</a>
-                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white " href="#experiencia">Experiencia</a>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#trabajos">Trabajos</a>
-                  </li>
-                  <li class="nav-item">
-                   <a class="nav-link text-white" href="#contacto">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-         </nav>
+  <nav class="navbar navbar-expand-lg p-1 navbar-dark color" style="background-color:#373A3C">
+    <div class="container">
+            <a class="navbar-brand" href="#"><h3 class="font-weight-bold pl-2">PEDRO</h3> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item">
+            <a class="nav-link text-white px-3" href="#sobre_mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white px-3" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white px-3" href="#trabajos">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white px-3" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
          <section>
            <header class="hero-section container">
 
              <div class="row">
-             <div class="col-sm-6 py-5 text-center">
+             <div class="col-sm-4 py-5 text-center">
              <img class="img-responsive img-circle" src="assets/img/foto_perfil.jpg" alt="foto_perfil">
              <h1 class="font-weight-extralight">Yo soy</h1>
-             <u><h1 class="font-weight-bold">PEDRO</h1></u>
+             <u><h1 class="font-weight-bold pb-5">PEDRO</h1></u>
            </div>
 
-           <div class="col-sm-6 py-5 text-center">
-             <h1 class="font-weight-extralight">Yo soy</h1>
-             <u><h1 class="font-weight-bold">PEDRO</h1></u>
+           <div class="d-none d-sm-block	d-sm-none d-md-block col-sm-8 pl-5 py-5 text-center">
+
+             <h1 class="py-5">TECNOLOGÍAS</h1>
+
+             <div id="blogCarousel" class="carousel bg-white blanco slide py-3 rounded" data-ride="carousel">
+               <ol class="carousel-indicators">
+                 <li data-target="#blogCarousel" data-slide-to="0" class="active bg-dark"></li>
+                 <li data-target="#blogCarousel" data-slide-to="1" class="bg-dark"></li>
+               </ol>
+
+               <div class="carousel-inner text-center">
+                 <div class="carousel-item active">
+                   <div class="row">
+                     <div class="col-3">
+                      <i class="fab fa-html5 fa-5x icono" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Codepen"></i>
+                     </div>
+                     <div class="col-3">
+                       <i class="fab fa-css3-alt fa-5x icono" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Apper"></i>
+                     </div>
+                     <div class="col-3">
+                       <i class="fab fa-adobe fa-5x icono" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Angry Creative"></i>
+                     </div>
+                     <div class="col-3">
+                      <i class="fab fa-angular fa-5x icono" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Google"></i>
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="carousel-item">
+                   <div class="row">
+                     <div class="col-3">
+                       <i class="fab fa-js-square fa-5x icono" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="500px"></i>
+                     </div>
+                     <div class="col-3">
+                       <i class="fab fa-php fa-5x icono" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Apple"></i>
+                     </div>
+                     <div class="col-3">
+                       <i class="fab fa-ubuntu fa-5x icono" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Aviato"></i>
+                     </div>
+                     <div class="col-3">
+                      <i class="fab fa-github fa-5x icono" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Dungeons & Dragons"></i>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
            </div>
          </div>
            </header>
          </section>
 
-         <section class="d-none d-sm-block	d-sm-none d-md-block rounded py-5 negro">
+         <section class="d-none d-sm-block	d-sm-none d-md-block rounded py-5 text-white">
            <div class="container">
-           <h4 id="sobre_mi" class="text-center font-weight-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
-           <hr style="border-color:black; width:15%;">
+           <h4 id="sobre_mi" class="text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
+           <hr style="border-color:white; width:15%;">
          </div>
 
 
@@ -91,7 +131,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
               </div>
              </div>
-           </div>
+           </div<img class="d-block w-100" src="..." alt="First slide">
          </section>
 
          <br>
@@ -102,16 +142,16 @@
          <section class="pb-5">
            <div id="experiencia" class="container text-center">
            <h1 class="font-weight-bold negro">MI EXPERIENCIA</h1>
-           <hr  style="border-color:black; width:15%;">
+           <hr  style="border-color:white; width:15%;">
 
            <div class="row py-4">
-             <div class="col-sm-6">
+             <div class="col-sm-6 py-3">
                  <i class="fas fa-coins fa-9x otro"></i>
                  <h3 class="font-weight-semibold negro">Estudios Ing.Comercial</h3>
                  <p class="font-weight-semibold open negro">2015 - 2017</p>
              </div>
 
-             <div class="col-sm-6">
+             <div class="col-sm-6 py-3">
                  <i class="far fa-file-code fa-9x otro"></i>
                  <h3 class="font-weight-semibold negro">Desarrollador Web</h3>
                  <p class="font-weight-semibold open negro">2019</p>

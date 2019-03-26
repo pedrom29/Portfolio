@@ -16,12 +16,34 @@ h4 {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+
+.carousel-indicators {
+  top: 120px;
+
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  color: #373A3C;
+}
+
+.boton {
+  color: #373A3C;
+}
+
+
 .oscuro {
   background-color: #373A3C;
 }
 
 .otro {
-  color: ##373A3C;
+  color: #373A3C;
+}
+
+.icono {
+  color: #373A3C;
 }
 
 a {
@@ -30,4 +52,8 @@ a {
 
 .negro {
   color: #373A3C;
+}
+
+.rounded {
+  background-color: #373A3C;
 }
